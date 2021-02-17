@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+    margin: auto;
+    width: 411px;
+    background-color: white;
+    font-family: 'DM Sans', sans-serif;
+}
+
+body {
+    background-color: white;
+    border:solid #212429 1px;
+}
+
+h1{
+    font-size: 28px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    width: 265px;
+    margin: auto;
+    display: block;
+    padding-top: 56px;
+}
+
+h2{
+    font-size: 16px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight:400;
+    text-align: center;
+    width: 201px;
+    margin: auto;
+    display: block;
+}
+
+h3{
+    font-size: 21px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight:600;
+    text-align: left;
+    width: 201px;
+}
+
+#description{
+    padding-top: 25px;
+}
+
+#statusBar{
+    height: 30px;
+    width: 411px;
+    align-content: flex-start;
+}
+
+.buttonFilled {
+    background-color: #6B8E4E; /* Green */
+    border: none;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 346px;
+    height: 48px;
+    margin: auto;
+    display: block;
+  }
+
+  .buttonFilled:hover{
+    color: white;
+    border: none;
+    background:#3C5148;
+  }
+
+  .buttonOutline {
+    border:solid #212429 1px;
+    color: #212429;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 346px;
+    height: 48px;
+    margin: auto;
+    display: block;
+  }
+
+  .buttonOutline:hover{
+    color: #6B8E4E;
+    border: #6B8E4E solid 1px;
+    background:#fff;
+  }
+
+#primaryButton{
+    padding-top: 57px;
+}
+
+#secondaryButton{
+    padding-top: 13px;
+    padding-bottom: 56px;
+}
+
+#plantIcon{
+    height: 181px;
+    width: 181px;
+    display: block;
+    margin: auto;
+    padding-top: 48px;
+}
+
+#bottomNav {
+    height: 58px;
+    width: 411px;
+    align-items:flex-end;
+}
+
+a { 
+    text-decoration: none; 
+   }
+
+#leftArrow{
+    width: 12px;
+    height: 11px;
+}
+
+#pageHeader{
+    display:flex;
+    align-items:center;
+}
